@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgba(24, 222, 83,1);
+    position: fixed;
+    box-shadow: 1px 1px 10px  ;
+}
+.logo_if{
+    width: 90px;
+
+}
+.navbar h1{
+    font-family: Franklin Gothic Medium;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 0.01vh aliceblue;
+}
+.navbar div{
+    width: 35%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+}
+.navbar div input{
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px;
+    width: 90%;
+    text-align: center;
+}
+.ico_search{
+    width: 25px;
+    margin: 0 1vh auto;
+}
+.list_plants{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 0 vw auto;
+    padding: 150px 0px 10px 5vw  ;
+}
+.content_list{
+    margin-bottom: 30px;
+    background-color: white;
+    padding:2% 20%;
+    
+}
+.content_list span{
+    font-size: 20px;
+    font-weight:bold;
+    font-style: italic;
+    
+
+}
