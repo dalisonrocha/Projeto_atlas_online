@@ -12,10 +12,17 @@
     background-color: rgb(66, 245, 11);
     position: fixed;
     box-shadow: 1px 1px 10px  ;
+    z-index: 3;
 }
 .logo_if{
     width: 90px;
 
+}
+.logo_fundo{
+    position: fixed;
+    width: 700px;
+    text-align: center;
+    padding-left: 20%;
 }
 .navbar h1{
     font-family: Franklin Gothic Medium;
@@ -46,6 +53,7 @@
 .content_list{
     margin-bottom: 30px;
     background-color: white;
+    opacity:0.6;
     padding:1%;
     border-radius: 10px;
     box-shadow: 1px 1px 10px;
