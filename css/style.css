@@ -80,18 +80,16 @@ button.accordion{
     transition:0.3s;
 }
 button.accordion:hover{
-    background-color:rgba(255,255,255,0.3);
+    background-color:rgba(140, 182, 25, 0.253);
 }
-button.accordion.active{
-    background-color:#fff;
-    color:#000;
-    border-radius:4px 4px 0 0;
-    margin:4px 0 0;
-}
+
 div.panel{
     opacity:0;
     max-height:0;
     transition:0.3s;
+}
+.content_list.opacity{
+    opacity: 1;
 }
   
 div.panel.show{
@@ -113,4 +111,9 @@ div.panel.show{
 }
 .close:hover{
     color: rgb(57, 161, 31);
+}
+
+.list_plants img{
+    width: 450px;
+    style
 }
